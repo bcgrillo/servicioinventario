@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioInventario.WebAPI", "ServicioInventario\ServicioInventario.WebAPI.csproj", "{E8340BFB-C71E-4F6D-9419-8CED67A9D4B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioInventario.Aplicacion", "ServicioInventario.Aplicacion\ServicioInventario.Aplicacion.csproj", "{1FA76917-B66F-409D-A44B-38823080B403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioInventario.Modelos", "ServicioInventario.Modelos\ServicioInventario.Modelos.csproj", "{6CCAB0D6-FF95-47D0-BBDA-AD4C66E4B609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioInventario.Datos", "ServicioInventario.Datos\ServicioInventario.Datos.csproj", "{922C0768-0E06-475E-9AEC-78092E07AEAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioInventario.AplicacionTests", "ServicioInventario.AplicacionTests\ServicioInventario.AplicacionTests.csproj", "{AC769EEC-AF6E-435C-A5DA-10B1242061B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89204D23-51C0-4BEE-82BF-A128BF0EE93E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8340BFB-C71E-4F6D-9419-8CED67A9D4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8340BFB-C71E-4F6D-9419-8CED67A9D4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8340BFB-C71E-4F6D-9419-8CED67A9D4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8340BFB-C71E-4F6D-9419-8CED67A9D4B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA76917-B66F-409D-A44B-38823080B403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA76917-B66F-409D-A44B-38823080B403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA76917-B66F-409D-A44B-38823080B403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA76917-B66F-409D-A44B-38823080B403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCAB0D6-FF95-47D0-BBDA-AD4C66E4B609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCAB0D6-FF95-47D0-BBDA-AD4C66E4B609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCAB0D6-FF95-47D0-BBDA-AD4C66E4B609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCAB0D6-FF95-47D0-BBDA-AD4C66E4B609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922C0768-0E06-475E-9AEC-78092E07AEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922C0768-0E06-475E-9AEC-78092E07AEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922C0768-0E06-475E-9AEC-78092E07AEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922C0768-0E06-475E-9AEC-78092E07AEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC769EEC-AF6E-435C-A5DA-10B1242061B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC769EEC-AF6E-435C-A5DA-10B1242061B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC769EEC-AF6E-435C-A5DA-10B1242061B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC769EEC-AF6E-435C-A5DA-10B1242061B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C866FD37-A03F-438D-953F-827D3F1C37E9}
+	EndGlobalSection
+EndGlobal
